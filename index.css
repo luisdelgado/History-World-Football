@@ -11,9 +11,15 @@
 }
 
 
-
 .div--grid--center {
   display: grid;
   justify-items: center;
+}
+
+.h3--margin--bottom {
+  h3 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
 }
 
