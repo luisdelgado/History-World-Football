@@ -1,25 +1,61 @@
 @media only screen and (min-width: 1024px) {
+  .div_min--height {
+    height: 102px;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
   img {
     max-width: 20%;
   }
 } 
 
 @media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 64px;
+  }
+
   img {
-    max-width: 50%;
+    max-width: 40%;
   }
 }
 
+.div__background--color--green {
+  background-color: #b5ec1d;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 32px;
+}
 
-.div--grid--center {
+.div__background--grey {
+  background-color: grey;
+  border: #FFFFFF solid 4px ;
+  border-radius: 20px;
+  margin-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.div__background--image--field {
+  background-image: url("public/images/bgimage.png");
+  padding-top: 24px;
+  text-align: center;
+  width: 100%;
+}
+
+.div__grid--center {
   display: grid;
   justify-items: center;
 }
 
-.h3--margin--bottom {
+.h3__margin--bottom {
   h3 {
     margin-top: 1px;
     margin-bottom: 1px;
   }
 }
-
