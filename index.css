@@ -24,7 +24,7 @@
 }
 
 .div__background--color--green {
-  background-color: #b5ec1d;
+  background-color: #496E0F;
   color: #FFFFFF;
   margin: 0;
   margin-bottom: 32px;
@@ -42,7 +42,7 @@
 }
 
 .div__background--image--field {
-  background-image: url("public/images/bgimage.png");
+  background-image: url("public/images/bgImage.svg");
   padding-top: 24px;
   text-align: center;
   width: 100%;
