@@ -1,7 +1,15 @@
 @media only screen and (min-width: 1024px) {
+  .div__background--image--field {
+    background-image: url("public/images/bgImage.svg");
+    padding-top: 24px;
+    text-align: center;
+    width: 100%;
+  }
+
   .div_min--height {
-    height: 102px;
     align-items: center;
+    height: 78px;
+    text-align: center;
   }
 
   h1 {
@@ -14,12 +22,29 @@
 } 
 
 @media only screen and (max-width: 1024px) {
+  .div__background--image--mobile {
+    background-image: url("public/images/maracana.svg");
+    text-align: center;
+    width: 100%;
+    height: 76vh;
+    background-repeat: no-repeat;
+    padding-top: 40%;
+  }
+
+  .div_min--height {
+    text-align: center;
+  }
+
   h1 {
     font-size: 64px;
   }
 
   img {
     max-width: 50%;
+  }
+
+  .position--fixed{
+    position:fixed;
   }
 }
 
@@ -38,14 +63,8 @@
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 16px;
+  bottom: 64px;
   text-align: center;
-}
-
-.div__background--image--field {
-  background-image: url("public/images/bgImage.svg");
-  padding-top: 24px;
-  text-align: center;
-  width: 100%;
 }
 
 .div__grid--center {
