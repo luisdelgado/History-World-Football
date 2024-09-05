@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 812px) {
   .div__background--image--field {
     background-image: url("public/images/bgImage.svg");
     padding-top: 24px;
@@ -21,7 +21,7 @@
   }
 } 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 812px) {
   .div__background--image--mobile {
     background-image: url("public/images/maracana.svg");
     text-align: center;
@@ -42,10 +42,10 @@
   img {
     max-width: 65%;
   }
+}
 
-  .position--fixed{
-    position:fixed;
-  }
+a {
+  color: #FFFFFF;
 }
 
 .div__background--color--green {
@@ -78,4 +78,13 @@
     margin-top: 1px;
     margin-bottom: 1px;
   }
+}
+
+.h2__padding {
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.position--fixed{
+  position:fixed;
 }
