@@ -1,4 +1,4 @@
-@media only screen and (min-width: 812px) {
+@media only screen and (min-width: 1024px) {
   .div__background--image--field {
     background-image: url("public/images/bgImage.svg");
     padding-top: 24px;
@@ -21,7 +21,7 @@
   }
 } 
 
-@media only screen and (max-width: 812px) {
+@media only screen and (max-width: 1024px) {
   .div__background--image--mobile {
     background-image: url("public/images/maracana.svg");
     text-align: center;
