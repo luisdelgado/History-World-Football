@@ -88,3 +88,7 @@ a {
 .position--fixed{
   position:fixed;
 }
+
+.visibility_hidden{
+  visibility: hidden;
+}
