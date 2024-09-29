@@ -8,7 +8,7 @@
 
   .div_min--height {
     align-items: center;
-    height: 78px;
+    height: 112px;
     text-align: center;
   }
 
@@ -41,6 +41,10 @@
 
   img {
     max-width: 65%;
+  }
+
+  .subtitle_padding--botton {
+    padding-bottom: 16px 
   }
 }
 
