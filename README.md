@@ -1,3 +1,3 @@
-# Football World Relevance
+# Relevance in World Football
 
-Site of Football World Relevance. Football World Relevance provides a card with a number which suggests the importance of a player in football world history
+Site of Relevance in World Football. Relevance in World Football provides a card with a number which suggests the importance of a player in world football history
