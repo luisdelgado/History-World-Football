@@ -1,0 +1,54 @@
+@media only screen and (min-width: 1024px) {
+  .a__fontsize a {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .a__fontsize a {
+    font-size: 32px;
+  }
+}
+
+a {
+  color: #FFFFFF;
+}
+
+.a__background--white {
+  background-color: white;
+  color: #7F5917;
+  border-radius: 4px;
+}
+
+.div__margin--zero {
+  margin: 0;
+}
+
+.div__position--relative {
+  position: relative;
+  padding-left: 16px;
+}
+
+.div__padding {
+  margin: 64px 64px;
+}
+
+.div__toolbar {
+  background-color: #7F5917;
+  color: #FFFFFF;
+  height: 64px;
+}
+
+.div__vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.div__vertical-center a {
+  cursor: pointer;
+  padding: 8px 8px;
+  text-decoration: none;
+}

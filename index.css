@@ -1,14 +1,19 @@
 @media only screen and (min-width: 1024px) {
+  .a__fontsize a {
+    font-size: 1.5em;
+  }
+
   .div__background--image--field {
     background-image: url("public/images/bgImage.svg");
     padding-top: 24px;
     text-align: center;
     width: 100%;
+    padding-bottom: 24px;
   }
 
   .div_min--height {
     align-items: center;
-    height: 112px;
+    height: 160px;
     text-align: center;
   }
 
@@ -22,6 +27,10 @@
 } 
 
 @media only screen and (max-width: 1024px) {
+  .a__fontsize a {
+    font-size: 32px;
+  }
+
   .div__background--image--mobile {
     background-image: url("public/images/maracana.svg");
     text-align: center;
@@ -33,6 +42,7 @@
 
   .div_min--height {
     text-align: center;
+    padding-bottom: 16px;
   }
 
   h1 {
@@ -52,10 +62,21 @@ a {
   color: #FFFFFF;
 }
 
+.a__background--white {
+  background-color: white;
+  color: #7F5917;
+  border-radius: 4px;
+}
+
+.div__toolbar {
+  background-color: #7F5917;
+  color: #FFFFFF;
+  height: 64px;
+}
+
 .div__background--color--green {
   background-color: #496E0F;
   color: #FFFFFF;
-  margin: 0;
   margin-bottom: 32px;
 }
 
@@ -75,6 +96,29 @@ a {
 .div__grid--center {
   display: grid;
   justify-items: center;
+}
+
+.div__margin--zero {
+  margin: 0;
+}
+
+.div__position--relative {
+  position: relative;
+  padding-left: 16px;
+}
+
+.div__vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.div__vertical-center a {
+  cursor: pointer;
+  padding: 8px 8px;
+  text-decoration: none;
 }
 
 .h3__margin--bottom {
