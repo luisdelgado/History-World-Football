@@ -8,6 +8,10 @@
   .a__fontsize a {
     font-size: 32px;
   }
+
+  .div__minHeight--112 {
+    min-height: 112px;
+  }
 }
 
 a {
