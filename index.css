@@ -11,7 +11,7 @@
     padding-bottom: 24px;
   }
 
-  .div_min--height {
+  .div_info {
     align-items: center;
     height: 160px;
     text-align: center;
@@ -40,9 +40,13 @@
     padding-top: 35%;
   }
 
-  .div_min--height {
+  .div_info {
     text-align: center;
     padding-bottom: 16px;
+  }
+
+  .div__minHeight--112 {
+    min-height: 112px;
   }
 
   h1 {
