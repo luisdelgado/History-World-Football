@@ -28,9 +28,8 @@
 
 @media only screen and (max-width: 1024px) {
   .a__fontsize a {
-    font-size: 32px;
+    font-size: 40px;
   }
-
   .div__background--image--mobile {
     background-image: url("public/images/maracana.svg");
     text-align: center;
@@ -51,6 +50,10 @@
 
   h1 {
     font-size: 64px;
+  }
+
+  .h2__display--none {
+    display: none;
   }
 
   img {
