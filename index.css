@@ -4,8 +4,11 @@
   }
 
   .div__background--image--field {
-    background-image: url("public/images/bgImage.svg");
-    padding-top: 24px;
+    background-image: url("public/images/bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 32px;
     text-align: center;
     width: 100%;
     padding-bottom: 24px;
