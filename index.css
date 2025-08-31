@@ -4,7 +4,7 @@
   }
 
   .div__background--image--field {
-    background-image: url("public/images/bg.svg");
+    background-image: url("public/images/bg-large.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
