@@ -24,6 +24,13 @@
   border-radius: 4px;
 }
 
+.div__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
 .div__margin--zero {
   margin: 0;
 }
@@ -60,3 +67,10 @@
 img {
   max-width: 100%;
 }
+
+.img__center {
+  padding-top: 40px;
+  width: 552px;
+  max-height: 552px;
+}
+
