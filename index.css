@@ -27,9 +27,41 @@
   img {
     max-width: 20%;
   }
-} 
+}
 
-@media only screen and (max-width: 1024px) {
+/* reply to landscape */
+@media only screen and (orientation: landscape) {
+  .a__fontsize a {
+    font-size: 1.5em;
+  }
+
+  .div__background--image--field {
+    background-image: url("public/images/bg-large.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 24px;
+  }
+
+  .div_info {
+    align-items: center;
+    height: 160px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  img {
+    max-width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
   .a__fontsize a {
     font-size: 40px;
   }

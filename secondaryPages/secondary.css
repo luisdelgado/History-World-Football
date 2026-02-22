@@ -4,7 +4,14 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
+/* reply to landscape */
+@media only screen and (orientation: landscape) {
+  .a__fontsize a {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
   .a__fontsize a {
     font-size: 40px;
   }
